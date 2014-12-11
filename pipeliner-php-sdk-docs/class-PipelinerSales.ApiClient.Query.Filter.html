@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class PipelinerSales\ApiClient\Query\Filter</title>
+
+	<link rel="stylesheet" href="resources/style.css?80237103">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-PipelinerSales.html">
+						PipelinerSales<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-PipelinerSales.ApiClient.html">
+						ApiClient<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Http.html">
+						Http					</a>
+
+						</li>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Model.html">
+						Model					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-PipelinerSales.ApiClient.Query.html">
+						Query					</a>
+
+						</li>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Repository.html">
+						Repository<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Repository.Rest.html">
+						Rest					</a>
+
+						</li>
+							</ul></li></ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-PipelinerSales.ApiClient.Query.Criteria.html">Criteria</a></li>
+				<li class="active"><a href="class-PipelinerSales.ApiClient.Query.Filter.html">Filter</a></li>
+				<li><a href="class-PipelinerSales.ApiClient.Query.Sort.html">Sort</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-PipelinerSales.ApiClient.Query.html" title="Summary of PipelinerSales\ApiClient\Query"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Filter</h1>
+
+
+	<div class="description">
+	<p>A conventient wrapper for building the filter string used in queries.</p>
+
+<p>For details, see the <a href="http://workspace.pipelinersales.com/community/api/data/Querying_rest.html">API documentation on querying</a>.</p>
+
+<p>All the magic methods can also be called statically, e.g.</p>
+
+<pre>Filter::equals(<span class="php-quote">&quot;NAME&quot;</span>, <span class="php-quote">&quot;Joe&quot;</span>)-&gt;greaterThan(<span class="php-quote">&quot;HEIGHT&quot;</span>, <span class="php-num">0</span>)</pre>
+
+<p>For most operators (all except ll, rl, fl and their aliases), DateTime objects can be
+used as value.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> PipelinerSales\ApiClient\Query<br>
+		
+
+			<b>Located at</b> <a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#16-139" title="Go to source code">PipelinerSales/ApiClient/Query/Filter.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#83-90" title="Go to source code">__construct</a>( <span> <var>$filter</var> = <span class="php-quote">''</span></span>, <span> <var>$dateTimeFormat</var> = PipelinerSales\ApiClient\Query\Defaults::DATE_FORMAT</span> )</code>
+
+		<div class="description short">
+			
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__call" id="___call">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___call">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#92-118" title="Go to source code">__call</a>( <span> <var>$name</var></span>, <span> <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__callStatic" id="___callStatic">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___callStatic">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#120-129" title="Go to source code">__callStatic</a>( <span> <var>$name</var></span>, <span> <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getString" id="_getString">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getString">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#131-138" title="Go to source code">getString</a>( )</code>
+
+		<div class="description short">
+			<p>Returns the resulting filter string usable in query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns the resulting filter string usable in query</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+	<table class="summary methods" id="magicMethods">
+	<caption>Magic methods summary</caption>
+	<tr data-order="eq" id="m_eq">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_eq">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#31" title="Go to source code">eq</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field <b>equals</b> value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field <b>equals</b> value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="equals" id="m_equals">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_equals">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#32" title="Go to source code">equals</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for eq</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for eq</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ne" id="m_ne">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_ne">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#33" title="Go to source code">ne</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field <b>does not equal</b> value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field <b>does not equal</b> value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="doesNotEqual" id="m_doesNotEqual">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_doesNotEqual">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#34" title="Go to source code">doesNotEqual</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for ne</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for ne</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="gt" id="m_gt">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_gt">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#35" title="Go to source code">gt</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field is <b>greater than</b> value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field is <b>greater than</b> value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="greaterThan" id="m_greaterThan">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_greaterThan">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#36" title="Go to source code">greaterThan</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for gt</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for gt</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lt" id="m_lt">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_lt">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#37" title="Go to source code">lt</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field is <b>less than</b> value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field is <b>less than</b> value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lessThan" id="m_lessThan">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_lessThan">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#38" title="Go to source code">lessThan</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for lt</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for lt</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ge" id="m_ge">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_ge">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#39" title="Go to source code">ge</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field is <b>greater or equal</b> to value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field is <b>greater or equal</b> to value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="gte" id="m_gte">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_gte">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#40" title="Go to source code">gte</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for ge</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for ge</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="greaterOrEqual" id="m_greaterOrEqual">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_greaterOrEqual">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#41" title="Go to source code">greaterOrEqual</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for ge</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for ge</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="le" id="m_le">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_le">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#42" title="Go to source code">le</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field is <b>less or equal</b> to value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field is <b>less or equal</b> to value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lte" id="m_lte">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_lte">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#43" title="Go to source code">lte</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for le</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for le</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lessOrEqual" id="m_lessOrEqual">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_lessOrEqual">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#44" title="Go to source code">lessOrEqual</a>( <span>string <var>$fieldName</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for le</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for le</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ll" id="m_ll">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_ll">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#45" title="Go to source code">ll</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field starts with value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field starts with value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="startsWith" id="m_startsWith">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_startsWith">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#46" title="Go to source code">startsWith</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for ll</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for ll</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rl" id="m_rl">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_rl">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#47" title="Go to source code">rl</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field ends with value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field ends with value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="endsWith" id="m_endsWith">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_endsWith">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#48" title="Go to source code">endsWith</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for rl</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for rl</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fl" id="m_fl">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_fl">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#49" title="Go to source code">fl</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>field contains value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>field contains value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="contains" id="m_contains">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_contains">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#50" title="Go to source code">contains</a>( <span>string <var>$fieldName</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			<p>alias for fl</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>alias for fl</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldName</var></dt>
+					<dd>
+</dd>
+					<dt><var>$value</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="raw" id="m_raw">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#m_raw">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Query.Filter.html#51-52" title="Go to source code">raw</a>( <span>string <var>$filterString</var></span> )</code>
+
+		<div class="description short">
+			<p>appends a separator &#40;|&#41; followed by the raw filter string to the current filter string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>appends a separator &#40;|&#41; followed by the raw filter string to the current filter string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filterString</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?1445344553"></script>
+<script src="elementlist.js?1682191745"></script>
+</body>
+</html>

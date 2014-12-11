@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class PipelinerSales\ApiClient\Http\CurlHttpClient</title>
+
+	<link rel="stylesheet" href="resources/style.css?80237103">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-PipelinerSales.html">
+						PipelinerSales<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-PipelinerSales.ApiClient.html">
+						ApiClient<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-PipelinerSales.ApiClient.Http.html">
+						Http					</a>
+
+						</li>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Model.html">
+						Model					</a>
+
+						</li>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Query.html">
+						Query					</a>
+
+						</li>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Repository.html">
+						Repository<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Repository.Rest.html">
+						Rest					</a>
+
+						</li>
+							</ul></li></ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-PipelinerSales.ApiClient.Http.CreatedResponse.html">CreatedResponse</a></li>
+				<li class="active"><a href="class-PipelinerSales.ApiClient.Http.CurlHttpClient.html">CurlHttpClient</a></li>
+				<li><a href="class-PipelinerSales.ApiClient.Http.Response.html">Response</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-PipelinerSales.ApiClient.Http.HttpInterface.html">HttpInterface</a></li>
+			</ul>
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-PipelinerSales.ApiClient.Http.PipelinerHttpException.html">PipelinerHttpException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-PipelinerSales.ApiClient.Http.html" title="Summary of PipelinerSales\ApiClient\Http"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CurlHttpClient</h1>
+
+
+	<div class="description">
+	<p>Implementation of HttpInterface using cURL to issue the requests.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>PipelinerSales\ApiClient\Http\CurlHttpClient</span></b>			
+			 implements 
+				<a href="class-PipelinerSales.ApiClient.Http.HttpInterface.html"><span>PipelinerSales\ApiClient\Http\HttpInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> PipelinerSales\ApiClient\Http<br>
+		
+
+			<b>Located at</b> <a href="source-class-PipelinerSales.ApiClient.Http.CurlHttpClient.html#13-100" title="Go to source code">PipelinerSales/ApiClient/Http/CurlHttpClient.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Http.CurlHttpClient.html#24-27" title="Go to source code">__construct</a>( <span> <var>$userAgent</var> = <span class="php-quote">'Pipeliner_PHP_API_Client/1.0'</span></span> )</code>
+
+		<div class="description short">
+			
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="request" id="_request">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_request">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Http.CurlHttpClient.html#29-75" title="Go to source code">request</a>( <span>string <var>$method</var></span>, <span>string <var>$url</var></span>, <span>string <var>$rawPayload</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$contentType</var> = <span class="php-quote">'application/json'</span></span> )</code>
+
+		<div class="description short">
+			<p>Sends a HTTP request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Sends a HTTP request</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd>HTTP method
+</dd>
+					<dt><var>$url</var></dt>
+					<dd>The URL
+</dd>
+					<dt><var>$rawPayload</var></dt>
+					<dd><p>Body of the request in case of POST/PUT requests. Must already
+be encoded in the form expected by the server. Pipeliner's server expects JSON.</p>
+</dd>
+					<dt><var>$contentType</var></dt>
+					<dd>If $rawPayload is not null, specifies the content of the Content-Type header.
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code></code>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><a href="class-PipelinerSales.ApiClient.Http.PipelinerHttpException.html">PipelinerSales\ApiClient\Http\PipelinerHttpException</a></code>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Http.HttpInterface.html#_request">PipelinerSales\ApiClient\Http\HttpInterface::request()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUserCredentials" id="_setUserCredentials">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUserCredentials">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Http.CurlHttpClient.html#77-81" title="Go to source code">setUserCredentials</a>( <span>string <var>$username</var></span>, <span>string <var>$password</var></span> )</code>
+
+		<div class="description short">
+			<p>Sets the user credentials used for authentication</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Sets the user credentials used for authentication</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd>
+</dd>
+					<dt><var>$password</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Http.HttpInterface.html#_setUserCredentials">PipelinerSales\ApiClient\Http\HttpInterface::setUserCredentials()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUserAgent" id="_setUserAgent">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUserAgent">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Http.CurlHttpClient.html#83-90" title="Go to source code">setUserAgent</a>( <span>string <var>$userAgent</var></span> )</code>
+
+		<div class="description short">
+			<p>Sets the user agent header used in HTTP requests</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Sets the user agent header used in HTTP requests</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$userAgent</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setExtraCurlOptions" id="_setExtraCurlOptions">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setExtraCurlOptions">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Http.CurlHttpClient.html#92-99" title="Go to source code">setExtraCurlOptions</a>( <span>array <var>$extraOptions</var></span> )</code>
+
+		<div class="description short">
+			<p>Sets extra options that will be passed to curl for every request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Sets extra options that will be passed to curl for every request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$extraOptions</var></dt>
+					<dd>an array in the format expected by curl_setopt_array
+</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?1445344553"></script>
+<script src="elementlist.js?1682191745"></script>
+</body>
+</html>

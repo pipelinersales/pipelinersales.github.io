@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class PipelinerSales\ApiClient\Repository\Rest\RestRepository</title>
+
+	<link rel="stylesheet" href="resources/style.css?80237103">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-PipelinerSales.html">
+						PipelinerSales<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-PipelinerSales.ApiClient.html">
+						ApiClient<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Http.html">
+						Http					</a>
+
+						</li>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Model.html">
+						Model					</a>
+
+						</li>
+				<li>
+					<a href="namespace-PipelinerSales.ApiClient.Query.html">
+						Query					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-PipelinerSales.ApiClient.Repository.html">
+						Repository<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-PipelinerSales.ApiClient.Repository.Rest.html">
+						Rest					</a>
+
+						</li>
+							</ul></li></ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-PipelinerSales.ApiClient.Repository.Rest.RestCreatedResponse.html">RestCreatedResponse</a></li>
+				<li><a href="class-PipelinerSales.ApiClient.Repository.Rest.RestInfoMethods.html">RestInfoMethods</a></li>
+				<li class="active"><a href="class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html">RestRepository</a></li>
+				<li><a href="class-PipelinerSales.ApiClient.Repository.Rest.RestRepositoryFactory.html">RestRepositoryFactory</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-PipelinerSales.ApiClient.Repository.Rest.html" title="Summary of PipelinerSales\ApiClient\Repository\Rest"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class RestRepository</h1>
+
+
+	<div class="description">
+	<p>Class for retrieving and manipulating entities using Pipeliner's REST API.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>PipelinerSales\ApiClient\Repository\Rest\RestRepository</span></b>			
+			 implements 
+				<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html"><span>PipelinerSales\ApiClient\Repository\RepositoryInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> PipelinerSales\ApiClient\Repository\Rest<br>
+		
+
+			<b>Located at</b> <a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#25-245" title="Go to source code">PipelinerSales/ApiClient/Repository/Rest/RestRepository.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#37-44" title="Go to source code">__construct</a>( <span> <var>$urlPrefix</var></span>, <span> <var>$entity</var></span>, <span> <var>$entityPlural</var></span>, <span><code><a href="class-PipelinerSales.ApiClient.Http.HttpInterface.html">PipelinerSales\ApiClient\Http\HttpInterface</a></code> <var>$connection</var></span>, <span> <var>$dateTimeFormat</var></span> )</code>
+
+		<div class="description short">
+			
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getById" id="_getById">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Entity.html">PipelinerSales\ApiClient\Entity</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getById">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#46-52" title="Go to source code">getById</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Returns an entity with the specified ID</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns an entity with the specified ID</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Entity.html">PipelinerSales\ApiClient\Entity</a></code></code>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><a href="class-PipelinerSales.ApiClient.Http.PipelinerHttpException.html">PipelinerSales\ApiClient\Http\PipelinerHttpException</a></code>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#_getById">PipelinerSales\ApiClient\Repository\RepositoryInterface::getById()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.EntityCollection.html">PipelinerSales\ApiClient\EntityCollection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#54-80" title="Go to source code">get</a>( <span>mixed <var>$criteria</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Returns a collection of all entities satisfying the provided criteria</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns a collection of all entities satisfying the provided criteria</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$criteria</var></dt>
+					<dd><p>Can be one of the following</p>
+
+<ul>
+<li>null - fetches all entities up to a default limit of 25</li>
+<li>a <code><a href="class-PipelinerSales.ApiClient.Query.Criteria.html">PipelinerSales\ApiClient\Query\Criteria</a></code> object</li>
+<li>a <code><a href="class-PipelinerSales.ApiClient.Query.Filter.html">PipelinerSales\ApiClient\Query\Filter</a></code> object</li>
+<li>a <code><a href="class-PipelinerSales.ApiClient.Query.Sort.html">PipelinerSales\ApiClient\Query\Sort</a></code> object</li>
+<li>a query string following the format described at
+<a href="http://workspace.pipelinersales.com/community/api/data/Querying_rest.html">http://workspace.pipelinersales.com/community/api/data/Querying_rest.html</a></li>
+<li>an array with keys corresponding to the format at
+<a href="http://workspace.pipelinersales.com/community/api/data/Querying_rest.html">http://workspace.pipelinersales.com/community/api/data/Querying_rest.html</a></li>
+</ul>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.EntityCollection.html">PipelinerSales\ApiClient\EntityCollection</a></code></code>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><a href="class-PipelinerSales.ApiClient.Http.PipelinerHttpException.html">PipelinerSales\ApiClient\Http\PipelinerHttpException</a></code><br>when retrieving data from the server fails
+<br>
+					<code><a href="class-PipelinerSales.ApiClient.PipelinerClientException.html">PipelinerSales\ApiClient\PipelinerClientException</a></code><br>when provided criteria is invalid
+
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#_get">PipelinerSales\ApiClient\Repository\RepositoryInterface::get()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Entity.html">PipelinerSales\ApiClient\Entity</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#82-85" title="Go to source code">create</a>( )</code>
+
+		<div class="description short">
+			<p>Creates a new entity. Please note that this entity won't exist on the
+server until you save it by calling the save method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Creates a new entity. Please note that this entity won't exist on the
+server until you save it by calling the save method.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Entity.html">PipelinerSales\ApiClient\Entity</a></code></code>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#_create">PipelinerSales\ApiClient\Repository\RepositoryInterface::create()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#87-109" title="Go to source code">delete</a>( <span>mixed <var>$entity</var></span>, <span>integer <var>$flags</var> = <code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_ROLLBACK_ON_ERROR">PipelinerSales\ApiClient\Repository\RepositoryInterface::<b>FLAG_ROLLBACK_ON_ERROR</b></a></code></span> )</code>
+
+		<div class="description short">
+			<p>Deletes an entity</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Deletes an entity</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$entity</var></dt>
+					<dd>the entity to delete, or an array of multiple entities
+</dd>
+					<dt><var>$flags</var></dt>
+					<dd><p>used only if multiple entities are provided,
+flags described on <a href="http://workspace.pipelinersales.com/community/api/data/Methods_rest.html">http://workspace.pipelinersales.com/community/api/data/Methods_rest.html</a></p>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code></code><br>response to the delete HTTP request
+
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><a href="class-PipelinerSales.ApiClient.Http.PipelinerHttpException.html">PipelinerSales\ApiClient\Http\PipelinerHttpException</a></code><br>
+					<code><a href="class-PipelinerSales.ApiClient.PipelinerClientException.html">PipelinerSales\ApiClient\PipelinerClientException</a></code><br><p>when the entity provided doesn't have an ID,
+which usually means that it's a newly created entity that wasn't saved yet</p>
+
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#_delete">PipelinerSales\ApiClient\Repository\RepositoryInterface::delete()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteById" id="_deleteById">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteById">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#111-124" title="Go to source code">deleteById</a>( <span>mixed <var>$id</var></span>, <span>integer <var>$flags</var> = <code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_ROLLBACK_ON_ERROR">PipelinerSales\ApiClient\Repository\RepositoryInterface::<b>FLAG_ROLLBACK_ON_ERROR</b></a></code></span> )</code>
+
+		<div class="description short">
+			<p>Deletes one or more entities specified by their ID</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Deletes one or more entities specified by their ID</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd>the ID of the entity to delete, or an array containing multiple IDs
+</dd>
+					<dt><var>$flags</var></dt>
+					<dd><p>used only if multiple IDs are provided,
+flags described on <a href="http://workspace.pipelinersales.com/community/api/data/Querying_rest.html">http://workspace.pipelinersales.com/community/api/data/Querying_rest.html</a></p>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code></code><br>response to the delete HTTP request
+
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><a href="class-PipelinerSales.ApiClient.Http.PipelinerHttpException.html">PipelinerSales\ApiClient\Http\PipelinerHttpException</a></code>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#_deleteById">PipelinerSales\ApiClient\Repository\RepositoryInterface::deleteById()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="bulkUpdate" id="_bulkUpdate">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_bulkUpdate">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#126-148" title="Go to source code">bulkUpdate</a>( <span>mixed <var>$data</var></span>, <span>integer <var>$flags</var> = <code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_ROLLBACK_ON_ERROR">PipelinerSales\ApiClient\Repository\RepositoryInterface::<b>FLAG_ROLLBACK_ON_ERROR</b></a></code></span>, <span>integer <var>$sendFields</var> = <code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#SEND_MODIFIED_FIELDS">PipelinerSales\ApiClient\Repository\RepositoryInterface::<b>SEND_MODIFIED_FIELDS</b></a></code></span> )</code>
+
+		<div class="description short">
+			<p>Updates multiple entities at once</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Updates multiple entities at once</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><p>entities to update, where each entity is either an entity object or an associative array
+with keys corresponding to fields and values to the entity's values.
+See the setEntities method at
+<a href="http://workspace.pipelinersales.com/community/api/data/Methods_rest.html">http://workspace.pipelinersales.com/community/api/data/Methods_rest.html</a></p>
+</dd>
+					<dt><var>$flags</var></dt>
+					<dd><p>flags described on
+<a href="http://workspace.pipelinersales.com/community/api/data/Methods_rest.html">http://workspace.pipelinersales.com/community/api/data/Methods_rest.html</a></p>
+</dd>
+					<dt><var>$sendFields</var></dt>
+					<dd><p>whether to upload all the fields for Entity objects, or just the fields
+which have been modified in code since the entity was loaded/saved</p>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code></code><br>response to the HTTP request
+
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><a href="class-PipelinerSales.ApiClient.Http.PipelinerHttpException.html">PipelinerSales\ApiClient\Http\PipelinerHttpException</a></code>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#_bulkUpdate">PipelinerSales\ApiClient\Repository\RepositoryInterface::bulkUpdate()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save" id="_save">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code>|CreatedResponse
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#150-192" title="Go to source code">save</a>( <span>mixed <var>$entity</var></span>, <span>integer <var>$sendFields</var> = <code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#SEND_MODIFIED_FIELDS">PipelinerSales\ApiClient\Repository\RepositoryInterface::<b>SEND_MODIFIED_FIELDS</b></a></code></span> )</code>
+
+		<div class="description short">
+			<p>Uploads an entity to the server.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Uploads an entity to the server.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$entity</var></dt>
+					<dd>the entity to upload, an <code><a href="class-PipelinerSales.ApiClient.Entity.html">PipelinerSales\ApiClient\Entity</a></code> object or an associative array
+</dd>
+					<dt><var>$sendFields</var></dt>
+					<dd><p>whether to upload all the fields for Entity objects, or just the fields
+which have been modified in code since the entity was loaded/saved</p>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.Http.Response.html">PipelinerSales\ApiClient\Http\Response</a></code>|CreatedResponse</code><br>response to the HTTP request
+
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><a href="class-PipelinerSales.ApiClient.Http.PipelinerHttpException.html">PipelinerSales\ApiClient\Http\PipelinerHttpException</a></code>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#_save">PipelinerSales\ApiClient\Repository\RepositoryInterface::save()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getEntireRangeIterator" id="_getEntireRangeIterator">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-PipelinerSales.ApiClient.EntityCollectionIterator.html">PipelinerSales\ApiClient\EntityCollectionIterator</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getEntireRangeIterator">#</a>
+		<code><a href="source-class-PipelinerSales.ApiClient.Repository.Rest.RestRepository.html#194-197" title="Go to source code">getEntireRangeIterator</a>( <span><code><a href="class-PipelinerSales.ApiClient.EntityCollection.html">PipelinerSales\ApiClient\EntityCollection</a></code> <var>$collection</var></span> )</code>
+
+		<div class="description short">
+			<p>Returns an iterator set to the offset of the query's criteria</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns an iterator set to the offset of the query's criteria</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$collection</var></dt>
+					<dd>
+</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-PipelinerSales.ApiClient.EntityCollectionIterator.html">PipelinerSales\ApiClient\EntityCollectionIterator</a></code></code>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#_getEntireRangeIterator">PipelinerSales\ApiClient\Repository\RepositoryInterface::getEntireRangeIterator()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+	<table class="summary inherited">
+	<caption>Constants inherited from <a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#constants">PipelinerSales\ApiClient\Repository\RepositoryInterface</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_GET_NO_DELETED_ID"><b>FLAG_GET_NO_DELETED_ID</b></a>, 
+			<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_IGNORE_AND_RETURN_ERRORS"><b>FLAG_IGNORE_AND_RETURN_ERRORS</b></a>, 
+			<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_IGNORE_ON_ERROR"><b>FLAG_IGNORE_ON_ERROR</b></a>, 
+			<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_INSERT_ON_UPDATE"><b>FLAG_INSERT_ON_UPDATE</b></a>, 
+			<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_ROLLBACK_ON_ERROR"><b>FLAG_ROLLBACK_ON_ERROR</b></a>, 
+			<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#FLAG_VALIDATE_ONLY_UPDATED_FIELDS"><b>FLAG_VALIDATE_ONLY_UPDATED_FIELDS</b></a>, 
+			<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#SEND_ALL_FIELDS"><b>SEND_ALL_FIELDS</b></a>, 
+			<a href="class-PipelinerSales.ApiClient.Repository.RepositoryInterface.html#SEND_MODIFIED_FIELDS"><b>SEND_MODIFIED_FIELDS</b></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?1445344553"></script>
+<script src="elementlist.js?1682191745"></script>
+</body>
+</html>
